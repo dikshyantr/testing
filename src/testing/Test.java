@@ -1,8 +1,8 @@
 package testing;
 
 public class Test {
-	public sa
-	public saaaa
-	private a
-	this is wrong
+	private static int a;
+	public Test(){
+		a = 0;
+	}
 }
