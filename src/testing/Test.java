@@ -1,10 +1,8 @@
 package testing;
 
 public class Test {
-	boolean  a = true;
+	private static int a;
 	public Test(){
-		if(a){
-			throw new NullPointerException();
-		}
+		a = 0;
 	}
 }
